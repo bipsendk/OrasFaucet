@@ -1,0 +1,16 @@
+{
+  "domain": "oras_faucet",
+  "name": "ORAS Faucet",
+  "config_flow": true,
+  "documentation": "https://github.com/bipsen/orasfaucet/blob/master/README.md",
+  "bluetooth": [
+    {
+      "connectable": false,
+      "manufacturer_id": 305
+    }
+  ],
+  "version": "0.1.0",
+  "dependencies": ["bluetooth"],
+  "codeowners": ["@bipsendk"],
+  "iot_class": "local_push"
+}
